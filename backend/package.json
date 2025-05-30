@@ -1,5 +1,5 @@
 {
-  "name": "microlab",
+  "name": "microlab-backend",
   "version": "1.0.0",
   "type": "module",
   "description": "Cloud-native microservices lab",
