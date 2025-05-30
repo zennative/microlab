@@ -1,0 +1,13 @@
+# Node.js v24 Alpine pinned by digest (architecture: linux/amd64) for immutability
+# podman manifest inspect docker.io/library/node:24-alpine
+FROM node@sha256:4437d7c27c4b9306c577caa17577dc7b367fc320fb7469dbe2c994e23b11d11c
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+CMD ["npm", "start"]
