@@ -1,6 +1,6 @@
-# Node.js v24 Alpine pinned by digest (architecture: linux/amd64) for immutability
-# podman manifest inspect docker.io/library/node:24-alpine
-FROM node@sha256:4437d7c27c4b9306c577caa17577dc7b367fc320fb7469dbe2c994e23b11d11c
+# Node.js v22.16.0 Alpine pinned by digest (architecture: linux/amd64) for immutability
+# podman manifest inspect docker.io/library/node:22-alpine
+FROM node@sha256:11d923cca2138d844282dc0c333132bba72deb913d635c3c33e54523b455a4da
 
 WORKDIR /app
 
