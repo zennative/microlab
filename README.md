@@ -1,2 +1,2 @@
-# microlab
-Cloud-native microservices lab
+# 🧪 MicroLab
+**Mapping the cloud-native universe**
